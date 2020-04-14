@@ -1,0 +1,9 @@
+html
+  head
+    title Template - This ia a static generated report
+  body
+    header
+      p Self Paced Labs
+    section
+    each lab in labs
+      a(href='' + lab.id) #{lab.id} #{lab.name} <br>
