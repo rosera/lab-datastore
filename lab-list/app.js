@@ -61,6 +61,16 @@ yargs.command ({
 });
 
 
+// CSV
+// 
+yargs.command ({
+  command: 'csv',
+  describe: 'Convert csv to json labs',
+  handler (argv) {
+    labs.csvLab();
+  }
+});
+
 // Read
 // id: identifier
 // 

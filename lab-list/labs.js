@@ -1,8 +1,10 @@
 // Labs Backend - methods
 //
 const fs = require('fs');
-const filename = "spl.json";
+const filename = "test.json";
+const csvToJson = require('convert-csv-to-json');
 
+const fileInputName = 'extract.csv';
 
 // Remove Labs - by ID
 const removeLab = (id) => {
@@ -31,6 +33,17 @@ const readLab = (id) => {
     console.log('Name: ' + findLab.name);
   } catch (exception) {
     console.log('Lab not found');
+  }
+}
+
+// CSV conversion to JSON
+const csvLab = () => {
+  try {
+    csvToJson.fieldDelimiter(',').getJsonFromCsv(fileInputName);
+    const csvData = csvToJson.getJsonFromCsv(fileInputName);
+    saveLabs(csvData);
+  } catch (exception) {
+    console.log('Unable to convert file');
   }
 }
 
@@ -79,5 +92,6 @@ module.exports = {
   addLab: addLab,
   removeLab: removeLab,
   listLab: listLab,
-  readLab: readLab
+  readLab: readLab,
+  csvLab: csvLab
 }
