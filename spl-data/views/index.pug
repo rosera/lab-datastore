@@ -1,9 +1,18 @@
 html
   head
-    title Template - This ia a static generated report
+    title Template - This is a statically generated report
   body
     header
-      p Self Paced Labs
+      p 
+        h1 Self Paced Labs
     section
-    each lab in labs
-      a(href='' + lab.id) #{lab.id} #{lab.name} <br>
+    table(style='width:50%', border='1')
+      tr
+        th ID
+        th Name
+
+      each lab in labs
+        tr
+          td 
+            a(href=lab.id) #{lab.id} 
+          td #{lab.name}

@@ -8,7 +8,7 @@ function asyncRenderPage(req, res) {
 
   console.log(`data: ${data.spls}`);
   res.status(200).send(pugFile({
-	  labs: data.spls
+	  labs: data
   }));
 }
 
