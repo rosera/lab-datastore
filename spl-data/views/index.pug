@@ -14,5 +14,5 @@ html
       each lab in labs
         tr
           td 
-            a(href=lab.id) #{lab.id} 
+            a(href="/?lab=" + lab.id) #{lab.id} 
           td #{lab.name}
