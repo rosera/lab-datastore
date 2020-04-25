@@ -21,8 +21,8 @@ logs matching the filter criteria are sent to the Cloud Run app. The general pro
 
 The code is in two parts:
 
-* lab-service provides the Logging Sink
-* webhook provide an example endpoint
+* lab-service which is a [Cloud Run](https://cloud.google.com/run) application that provides the Logging Sink
+* webhook which is a [Cloud Function](https://cloud.google.com/functions) application that provide an example endpoint
 
 ## Contributing
 
