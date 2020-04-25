@@ -5,7 +5,7 @@ In the consumer code, we build a small app to demonstrate access to the logging 
 
 The following architecture diagram illustrates what is happening in our example app.
 
-![Consumer architecture](https://github/rosera/lab-datastore/blob/master/images/consumer-overview.png "Consumer")
+![Consumer architecture](https://github.com/rosera/lab-datastore/blob/master/images/consumer-overview.png "Consumer")
 
 In the diagram, the following process is observed:
 
