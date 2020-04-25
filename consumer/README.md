@@ -1,13 +1,14 @@
 # Lab Datastore
 A general proof of concept to manage lab website code
 
+## Applications
+
+* lab-list: used to covert a csv to json file 
+* spl-data: used to display a list of labs
+
 ## Getting Started
 
-Two Directories based on Producer and Consumer
-
-* Producer: Sets up a Logging utility to filter information and pass it to an endpoint
-* Consumer: Takes the information produced and presents it using a simple webpage
-
+The contents are arranged by utility and associated information is available per utility in a seperate README.md.
 
 ## Contributing
 

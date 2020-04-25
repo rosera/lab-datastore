@@ -1,0 +1,75 @@
+message
+html
+  head
+    style.
+      .header {
+         text-align: center;
+         font-family: roboto;
+      }
+
+      .card {
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+         max-width: 600px;
+         margin: auto;
+         text-align: center;
+         font-family: roboto;
+      }
+
+      .release {
+         color: grey;
+         font-size: 22px;
+      }
+
+      .description {
+         color: black;
+         font-size: 18px;
+         padding: 8px;
+      }
+
+      .card button {
+         border: none;
+         outline: 0;
+         padding: 12px;
+         color: white;
+         background-color: #000;
+         text-align: center;
+         cursor: pointer;
+         width: 100%;
+         font-size: 18px;
+       }
+
+       .card button:hover {
+         opacity: 0.7;
+       }
+      
+       .table, td, th {
+          border: 1px solid black;
+          border-collapse: collapse;
+       }
+
+  body
+    div.header
+      H1 SPL Example
+      H3 Lab Details
+    div.card
+      h1 Lab ID - #{name}
+      div.release
+        h3 Compute Resource(s):
+        P Name: #{lab.instanceName}
+        table(style="width:100%")
+          tr
+            th Type
+            th Zone
+            th Disk Gb
+            th Disk Type
+            th Image
+          tr
+            td #{lab.machineType} <br>
+            td #{lab.zone} <br>
+            td #{lab.diskGb} GB<br>
+            td #{lab.diskType} <br>
+            td #{lab.sourceImg} <br>
+
+      div.description
+        h3 Last Run: #{lab.startTime} 
+        P Calculate price Lab: (Resource * Lab Time)

@@ -1,0 +1,17 @@
+{
+  "name": "spl-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=labAPI",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rich Rose",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.5.1",
+    "pug": "^2.0.4"
+  }
+}

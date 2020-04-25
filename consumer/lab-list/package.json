@@ -1,0 +1,16 @@
+{
+  "name": "lab-list",
+  "version": "1.0.0",
+  "description": "Convert Lab list from CSV to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rich Rose",
+  "license": "MIT",
+  "dependencies": {
+    "convert-csv-to-json": "0.0.15",
+    "yargs": "^15.3.1"
+  }
+}

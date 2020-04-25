@@ -1,0 +1,1 @@
+[{"instanceName":"resource-vm2","machineType":"n1-standard-1","zone":"us-central1-a","startTime":"2020-04-20","diskGb":"10","diskType":"pd-standard","sourceImg":"debian-9-stretch-v20200420"}]

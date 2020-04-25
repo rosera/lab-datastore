@@ -1,0 +1,466 @@
+id,name
+gsp001,creating a virtual
+gsp002,getting started with shell gcloud
+gsp003,provision services with marketplace
+gsp004,creating a persistent
+gsp005,hello node kubernetes
+gsp006,monitoring cloud infrastructure stackdriver
+gsp007,set up network http load balancers
+gsp008,rent a vm process earthquake data
+gsp009,weather data in
+gsp010,distributed image processing cloud dataproc
+gsp012,analyzing natality data datalab and bigquery
+gsp013,predicting baby weight tensorflow on cloud ml engine
+gsp015,running a node container on google kubernetes engine
+gsp016,networking 101
+gsp020,customize network topology subnetworks
+gsp021,orchestrating the cloud kubernetes
+gsp022,running a mongodb in kubernetes with statefulsets
+gsp023,deploying a python web application to app engine flexible
+gsp024,build a slack with node js on kubernetes
+gsp025,build and launch asp net core app from google
+gsp026,deploy a ruby rails app to app engine flexible
+gsp027,deploy an asp core app to app engine
+gsp028,deploy node js application in app engine
+gsp029,running wordpress on engine flexible environment
+gsp030,deploy asp net app to kubernetes engine
+gsp031,deploy microsoft sql to compute engine
+gsp032,deploy windows server asp net framework to compute engine
+gsp033,install and use tools for powershell
+gsp034,configuring and deploying sql server on gcp
+gsp035,g suite admin started personalization
+gsp036,provisioning and using managed hadoop spark cluster with cloud line
+gsp037,detect labels faces landmarks in images with the cloud
+gsp038,entity and sentiment with the natural language api
+gsp041,internal load balancer
+gsp042,http load balancer
+gsp044,network performance testing
+gsp045,improving network performance
+gsp046,improving network performance
+gsp047,run a big text processing pipeline in cloud dataflow
+gsp048,speech to text with the cloud speech api
+gsp049,translate text with cloud translation api
+gsp050,working with google dataprep
+gsp051,continuous delivery with in kubernetes engine
+gsp052,helm package manager
+gsp053,managing deployments using engine
+gsp054,firebase sdk for functions
+gsp055,introduction to docker
+gsp056,deployment manager package deploy
+gsp057,deployment manager for
+gsp058,deployment manager adding balancing
+gsp059,setting up a server on google compute engine
+gsp060,deployment manager full
+gsp061,google maps web proxy for mobile applications
+gsp062,building high throughput
+gsp063,classify text into with the natural language api
+gsp064,cloud iam qwik
+gsp065,firebase web
+gsp066,awwvision cloud vision from a kubernetes cluster
+gsp067,app engine qwik python
+gsp068,app engine qwik java
+gsp069,app engine qwik php
+gsp070,app engine qwik go
+gsp071,bigquery qwik start line
+gsp072,bigquery qwik start
+gsp073,cloud storage qwik console
+gsp074,cloud storage qwik cli sdk
+gsp075,extract analyze and text from images with the cloud
+gsp076,cloud ml engine start
+gsp077,tensorflow for poets
+gsp078,implementing an ai with dialogflow
+gsp079,getting started with kms
+gsp080,cloud functions qwik command line
+gsp081,cloud functions qwik console
+gsp083,deployment manager qwik
+gsp084,container registry qwik
+gsp085,google cloud datalab start
+gsp086,internet of things start
+gsp087,autoscaling an instance with stackdriver custom metrics
+gsp088,building an iot pipeline on google cloud platform
+gsp089,cloud monitoring qwik
+gsp090,monitoring multiple cloud with stackdriver
+gsp091,creating and alerting logs based metrics
+gsp092,monitoring and logging cloud functions
+gsp093,compute engine qwik windows
+gsp094,google cloud pub qwik start client libraries python
+gsp095,google cloud pub qwik start command line
+gsp096,google cloud pub qwik start console
+gsp097,cloud natural language qwik start
+gsp098,qwik start bigtable start hbase shell
+gsp099,bigtable qwik start line
+gsp100,kubernetes engine qwik
+gsp101,google cloud essential challenge lab
+gsp102,cloud spanner qwik
+gsp103,dataproc qwik start
+gsp104,dataproc qwik start line
+gsp105,dataprep qwik start
+gsp106,data loss prevention start command line
+gsp107,data loss prevention start json
+gsp108,RETIRED web app perform real time data analysis with and bigquery
+gsp109,using ruby on with cloud sql for postgresql
+gsp110,deploy refinery cms app engine flexible environment
+gsp111,reporting application metrics stackdriver
+gsp112,cloud security scanner start
+gsp114,continuous delivery pipelines spinnaker and kubernetes engine
+gsp115,building high availability high bandwidth nat gateways
+gsp116,deploying memcached on engine
+gsp117,setting up jenkins kubernetes engine
+gsp118,deploying a fault microsoft active directory environment
+gsp119,google cloud speech qwik start
+gsp121,cloud source repositories start
+gsp122,google cloud sdk start redhat centos
+gsp123,introduction to cloud hadoop and spark on google cloud
+gsp124,running a spark with opencv on cloud dataproc
+gsp125,speaking with a streaming speech transcripts
+gsp126,using the natural api from google docs
+gsp127,using the natural api with ruby
+gsp128,mapping the nyc
+gsp130,using gsutil to operations on buckets and objects
+gsp131,datastore qwik start
+gsp132,app engine qwik ruby
+gsp133,running dedicated game in google kubernetes engine
+gsp135,hello istio with engine
+gsp136,data studio qwik
+gsp137,running distributed tensorflow compute engine
+gsp138,scanning user generated using the cloud video intelligence and apis
+gsp139,creating custom interactive with bokeh and bigquery
+gsp141,creating an object application using tensorflow
+gsp142,using opentsdb to time series data on cloud platform
+gsp143,cloud life sciences start
+gsp144,container optimized os start
+gsp145,configuring deployment manager
+gsp146,create a custom using deployment manager
+gsp147,create a network balanced logbook application
+gsp148,create a cloud instance using deployment manager
+gsp150,optimize performance and using bigquery partitions
+gsp151,cloud sql for qwik start
+gsp152,cloud sql for qwik start
+gsp153,running windows containers compute engine
+gsp154,video intelligence qwik
+gsp156,terraform fundamentals
+gsp157,creating cross region balancing
+gsp158,building an image application using the cloud vision api
+gsp160,exploring ncaa data bigquery
+gsp162,using a nat with kubernetes engine
+gsp163,using apigee for management
+gsp164,cloud endpoints qwikstart
+GSP165,intro to git github
+gsp166,app dev setting a development environment java
+gsp167,app dev storing data in cloud datastore java
+gsp168,app dev storing and video files in cloud storage
+gsp169,app dev adding authentication to your application java
+gsp170,app dev developing backend service java
+gsp171,app dev deploying application into kubernetes engine java
+gsp172,app dev deploying application into app engine flexible environment
+gsp173,docker qwikstart
+gsp174,google assistant build app with dialogflow and cf for
+gsp178,setting up a kubernetes cluster
+gsp179,creating an instance multiple network interfaces
+gsp181,nginx ingress controller google kubernetes engine
+gsp182,distributed load testing kubernetes
+gsp183,app dev setting a development environment python
+gsp184,app dev storing data in cloud datastore python
+gsp185,app dev storing and video files in cloud storage
+gsp186,app dev adding authentication to your application python
+gsp187,app dev developing backend service python
+gsp188,app dev deploying application into kubernetes engine python
+gsp189,deploying the application app engine flexible environment python
+gsp190,iam custom roles
+gsp191,modular load balancing terraform regional load balancer
+gsp192,dataflow qwik start
+gsp193,vpc network peering
+gsp194,ingesting data into cloud
+gsp195,ingesting data into cloud using google app engine
+gsp196,loading data into cloud sql
+gsp197,visualizing data with datastudio
+gsp198,processing data with cloud dataflow
+gsp199,service accounts and fundamentals
+gsp200,using kubernetes engine deploy apps with regional persistent disks
+gsp201,visualize real time data with google datastudio
+gsp202,loading data into bigquery for exploratory data analysis
+gsp203,exploratory data analysis google cloud datalab
+gsp204,evaluating a data
+gsp205,using vault on engine for secret management
+gsp206,https content based balancer with terraform
+gsp207,dataflow qwik start
+gsp208,custom providers with
+gsp209,stackdriver profiler qwikstart
+gsp210,vpc networking qwik
+gsp211,multiple vcp networks
+gsp212,vpc flow analyzing network traffic
+gsp213,vpc networks controlling
+gsp214,using vpc network
+gsp215,http load balancer cloud armor
+gsp216,create an internal balancer
+gsp217,cloud cdn
+gsp218,dynamic vpn gateway routers
+gsp219,ntework tiers optimizing spend
+gsp220,deployment manager automating deployment
+gsp222,it speaks create speech using cloud text to speech
+gsp223,classify images of in the cloud with automl vision
+gsp224,a tour of core
+gsp225,integrating machine learning
+gsp227,cross region load using microsoft iis backends
+gsp228,internal load balancing haproxy on google compute engine
+gsp229,predict visitor purchases a classification model in bqml
+gsp230,https load balancing nginx and google compute engine
+gsp231,setting up tcp for google cloud load balancing
+gsp232,creating a custom type with terraform
+gsp233,deploy kubernetes load service with terraform
+gsp234,cloud sql with
+gsp235,google apps script google sheets maps gmail in 4 code
+gsp236,google sheets a tool sheets api
+gsp237,google slides api a custom presentation tool
+gsp238,write apps that g suite apis gcp
+gsp239,apps script cli
+gsp240,big data analysis a slide presentation
+gsp241,app maker build database web app
+gsp242,securing your gke with binary authorization
+gsp243,stackdriver kubernetes monitoring
+gsp244,cloud filestore qwik
+gsp245,scikit learn model with online prediction using cloud machine
+gsp246,predict taxi fare a bigquery ml forecasting model
+gsp247,getting started with
+gsp248,cloud spanner create gaming leaderboard with c
+gsp249,creating a gmail on
+gsp250,hangouts chat bot script
+gsp251,using the vision with c
+gsp252,using the natural api with c
+gsp253,using the speech text api with c
+gsp254,using the text speech api with c
+gsp255,using the translation with c
+gsp256,using the video api with c
+gsp257,using bigquery with
+gsp258,using stackdriver logging iot core
+gsp259,google cloud iot commands
+gsp260,querying cloud spanner a java client
+gsp261,cloud composer qwik
+gsp263,google assistant qwik dialogflow
+gsp264,google assistant qwik templates
+gsp265,using firestore with iot core for device configuration
+gsp268,getting started app
+gsp269,deploy a web on gke with https redirect using
+gsp271,machine learning with on google cloud dataproc
+gsp272,processing time windowed with apache beam and cloud dataflow
+gsp273,machine learning with
+gsp274,distributed machine learning google cloud ml
+gsp275,real time machine with google cloud ml
+gsp276,using agones to create scalable game servers
+gsp277,apis explorer qwik
+gsp278,streaming iot data gcs
+gsp279,streaming gcs iot to dataprep
+gsp280,google assistant customizing
+gsp281,introduction to sql bigquery and cloud sql
+gsp282,a tour of google cloud platform
+gsp283,cloud composer copying tables across different locations
+gsp284,apis explorer cloud
+gsp285,streaming iot kafka google cloud pub sub
+gsp286,launching dataproc jobs cloud composer
+gsp288,apis explorer create update a cluster
+gsp289,apis explorer stackdriver
+gsp290,etl processing on using dataflow and bigquery
+gsp293,apis explorer compute
+gsp294,introduction to apis google
+gsp295,cloud tpu qwik
+gsp296,tensorflow lite android
+gsp297,google cloud storage lock
+gsp298,query bigquery with using ibis
+gsp299,high availability postgresql kubernetes with google cloud
+gsp301,deploy a compute with a remote startup script
+gsp302,configure a firewall a startup script with deployment manager
+gsp303,configure secure rdp a windows bastion host
+gsp304,build and deploy docker image to a kubernetes cluster
+gsp305,scale out and a containerized application on a kubernetes
+gsp306,migrate a mysql to google cloud sql
+gsp307,vm to gke modernization
+gsp308,batch image processing batch on gke
+gsp309,database migration buffet
+gsp310,automating routine tasks google apps script
+gsp311,redacting and analyzing to better understand your customer
+gsp312,advanced security infrastructure
+gsp313,gcp ess challenge
+gsp314,cloud architecture challenge
+gsp315,cloud infra challenge
+gsp316,troubleshooting kubernetes engine and readiness probes
+gsp317,troubleshooting compute engine instance groups
+gsp318,kubernetes in the
+gsp320,datastax challenge lab
+gsp400,deploy asp net app to google kubernetes engine with
+gsp401,cloud scheduler qwik
+gsp403,how to build bi dashboard using google data studio
+gsp404,custom images jenkins
+gsp405,securing a two application with the vm series on
+gsp406,using the bigquery ui
+gsp407,exploring your ecommerce with sql in google bigquery
+gsp408,troubleshooting common sql with bigquery
+gsp409,explore and create with data studio
+gsp410,creating permanent tables access controlled views in bigquery
+gsp411,ingesting new datasets bigquery
+gsp412,troubleshooting and solving join pitfalls gsp
+gsp413,creating a data through joins and unions
+gsp414,creating and querying tables in bigquery
+gsp415,effective bigquery schema and query performance
+gsp416,working with json and structs in bigquery
+gsp418ex,predict housing prices tensorflow and cloud ml engine extended
+gsp418,predict housing prices tensorflow and cloud ml engine
+gsp420,getting started hyperledger
+gsp421,apis explorer cloud
+gsp422,apis explorer app
+gsp423,apis explorer cloud
+gsp424,asylo secret data
+gsp424,continuous deployment with build
+gsp425,site reliability troubleshooting stackdriver apm
+gsp426,setting service level
+gsp428,creating a chatbot hangouts using google apps script
+gsp429,build a complete web app with app maker
+gsp430,creating a data pipeline with cloud dataprep
+gsp431,implement a helpdesk with dialogflow bigquery ml
+gsp432,migrate data from to google bigquery
+gsp433,cloud service mesh provision and monitoring
+gsp435,datacenter migration modernize
+gsp436,deploying and monitoring s 4hana on google cloud platform
+gsp438,training resnet tpu
+gsp439,data pipeline differentiating managed services stream processing
+gsp441,creating and deploying kubeflow machine learning pipeline
+gsp442,developing with tpus jupyter
+gsp443,training and hyperparameter custom text models on cloud ml
+gsp444,overview of gke prem hybrid platform mod 1
+gsp445,overview of gke prem hybrid platform mod 2
+gsp446,troubleshooting cloud service
+gsp447,responding to stackdriver with cloud functions
+gsp448,serverless compute microservices cloud functions
+gsp449,connect to cloud from app in gke
+gsp454,g suite user practice quest
+GSP455,asylo open flexible for enclave apps
+gsp456,running a grpc inside an asylo enclave
+gsp457,ingesting fhir data the healthcare api
+gsp459,configuring private google and cloud nat
+gsp460,automate the deployment networks using terraform
+gsp461,bracketology with google learning
+gsp464,pipeline graphs with data fusion
+gsp465,gmail
+gsp466,calendar
+gsp467,video conferencing
+gsp468,drive
+gsp469,google sheets getting
+gsp470,team drive getting
+gsp471,google sites getting
+gsp472,google groups getting
+gsp473,hangouts chat getting
+gsp475,migrating to containers
+gsp476,kubernetes eng comm vpc peering
+gsp478,cloud life sciences transforms tool
+gsp479,google kubernetes engine auth demo
+gsp480,how to use policy in GKE
+gsp482,securing applicaitons in three examples
+gsp483,logging with stackdriver GKE
+gsp484,tracing with stackdriver GKE
+GSP485,istio on kubernetes and compute engine
+gsp486,google assistant build restaurant locator
+gsp487,google assistant build youtube entertainment app
+gsp489,palo alto networks series firewall automating deployment with terraform
+gsp490,palo alto networks series firewall securing gke perimeter
+gsp491,palo alto networks series firewall scale out protection with
+gsp492,hello cloud run
+gsp493,using role based control in gke
+gsp494,introduction to gitLab gke
+gsp495,palo alto networks mesh security adapter for istio
+gsp496,hardening default gke configurations
+gsp497,monitoring with stackdriver
+gsp498,empower your gmail with google cloud functions
+gsp499,user authentication identity proxy
+gsp500,cloud hero
+gsp500,cloud hero LT
+gsp501,cloud hero
+gsp502,cloud hero
+gsp503,cloud hero
+gsp504,cloud hero
+gsp505,cloud hero team hardening your cluster
+gsp600,build nearby business service google maps platform
+gsp601,cloud run on
+gsp602,http google cloud in go
+gsp603,tracking cryptocurrencies exchange with google cloud platform in real
+gsp604,10k_bitcoin_network
+gsp606,introduction to cloud
+gsp607,deploy and manage elastifile cloud file system with terraform
+gsp610,fundamentals of stackdriver
+gsp613,machine learning predictions fhir and healthcare api
+gsp614,understanding and analyzing costs with google cloud billing reports
+gsp615,ingesting dicom data the healthcare api
+gsp616,migrating to gcp foundations deployments
+gsp617,using bigquery to bigquery logs
+gsp619,vpc networking cloud vpn
+gsp621,examining billing data bigquery
+gsp622,visualizing billing data data studio
+gsp623,examining big query data in google sheets
+gsp625,using oauth authenticated to query sap hana express
+gsp626,de identifying dicom with the healthcare api
+gsp627,synthetic features and with tensorflow
+gsp628,ingesting hl7v2 data the healthcare api
+gsp630,configuring networks via
+gsp631,learning tensorflow introduction computer vision
+gsp632,learning tensorflow introduction convolutions
+gsp633,learning tensorflow convolutional networks
+gsp634,using convolutions with images
+gsp635,using CNNs with Datasets
+gsp637,learning tensorflow the world of machine learning
+gsp638,building sqlite with
+gsp639,building redis with
+gsp640,gitlab hashicorp automating workflows with gitlab and terraform
+gsp641,build a cloud sap hana
+gsp642,migrating data to firestore database
+gsp643,build a serverless app with firebase and firestore
+gsp644,build a serverless that creates pdf files
+gsp645,share data securely a rest api
+gsp646,clean up unused
+gsp647,configuring iam permission gcloud
+gsp648,clean up unusued disks
+gsp649,migrating storage bucket
+gsp650,build a resilient system
+gsp651,setting up cost quota
+gsp653,maps to visualize geo data
+gsp654,servicemesh oss singlecluster
+gsp655,hybrid observability
+gsp656,traffic management
+gsp657,policies security
+gsp659,deploy your website cloud run
+gsp661,open telemetry
+GSP663,deploy scale and your website on gke
+gsp664,ServiceMesh SingleCluster
+gsp665,crypto datasets
+gsp667,perfkitbenchmarker networking intro
+gsp668,connect to stackdriver using apigee
+gsp669,establish a data from stackdriver logging to bigquery with
+gsp670,leverage apigee to exposure secure access
+gsp671,self service api sign up experience
+gsp672,content aggregation via bring in google hosted api content
+gsp673,security mediation with service accounts and oauth
+gsp674,conditional routing of based on feature flag
+gsp675,controlling api traffic the istio mixer adapter for apigee
+gsp678,deploying sap hana in gcp with standby node
+gsp679,introducing api management top of a legacy platform
+gsp680,embedding apigee into ci cd lifecycle
+gsp681,enforcing api management istio service mesh
+gsp682,migrate for anthos
+gsp683,running windows containers gke
+gsp684,compare cloud ai models using the what if tool potential bias
+gsp686,introduction to stratozone
+gsp688,ingesting data into cloud using google cloud functions
+gsp690,deploy an auto hpc cluster with slurm
+gsp691,reinforcement learning qwik
+gsp696,prisma cloud compute gke run time
+gsp697,palo alto networks ngfw securing gke clusters
+gsp698,cft scorecard
+gsp699,migrating a monolithic to microservices on google kubernetes engine
+gsp701,go code to with google cloud data sources
+gsp702,deploy go apps google cloud serverless platforms
+gsp703,online data migration striim
+gsp704,deploy cassandra database
+gsp705,spin up a node with blockapps strato in 3
+gsp706,deploy datastax enterprise
+gsp707,migrate app data datastax enterprise
+gsp708,a walkthrough of what if tool
+gsp709,identifying bias in data using cloud ai platform and if tool
+gsp710,using whatif image
+gsp711,kubeflow pipelines with platform
