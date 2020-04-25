@@ -6,7 +6,7 @@ In the producer code, we initiate a Logging Sink. A Logging Sink enables an expo
 
 The following architecture diagram illustrates what is happening when a Logging Sink is enabled.
 
-![Notification architecture](https://github.com/rosera/lab-datastore/blob/master/images/resource-overview.png "Architecture")
+![Notification architecture](https://github.com/rosera/lab-datastore/blob/master/images/producer-overview.png "Producer")
 
 In our example, the filter specifies gce_instances (i.e. virtual machines). When a virtual machine is provisioned, the associated 
 logs matching the filter criteria are sent to the Cloud Run app. The general process is described below:
