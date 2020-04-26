@@ -19,12 +19,24 @@ In the diagram, the following process is observed:
 * lab-list: used to convert a csv to json file 
 * spl-data: used to display the information stored in the json file
 
+| id    | instanceName | machineType   | zone          | startTime | diskGb | diskType    | sourceImg |
+|-------|--------------|---------------|---------------|-----------|--------|-------------|-----------|
+|gsp001 | myVM         | n1-standard-1 | us-central1-a | 10-10-20  | 10     | PD Standard | Debian9   |
 
 ### JSON Format
+```
+{ 
+  "id":"gsp001",
+  "instanceName":"myVm",
+  "machineType":"n1-standard-1", 
+  "zone":"us-central1-a", 
+  "startTime":"10-10-20", 
+  "diskGB":10, 
+  "diskType":"PD Standard", 
+  "sourceImg":"Debian9"
+}
+```
 
-| id | instanceName | machineType | zone | startTime | diskGb | diskType | sourceImg |
-|------------------------------------------------------------------------------------|
-|gsp001 | myVM | n1-standard-1 | us-central1-a | 10-10-20 | 10 | PD Standard | Debian9 |
 
 
 ### CSV Format
