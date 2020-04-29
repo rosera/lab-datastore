@@ -13,13 +13,12 @@ const {Storage}   = require('@google-cloud/storage');
 const storage = new Storage();
 
 // Ensure you have write permissions to the bucket
-// const bucketname = "[CLOUD STORAGE BUCKET]";
+const bucketname = process.env.STORAGE_BUCKET || '';
 
 // Perform the upload
 async function uploadFile(bucketname, filename){
   await storage.bucket(bucketname).upload(filename);
 }
-
 
 // Cloud function entry point
 exports.webhook = async (req, res) => {
@@ -41,7 +40,9 @@ exports.webhook = async (req, res) => {
   // 4. upload the updated filelist
 
   fs.writeFileSync(filename, jsonMessage);
-//  await uploadFile(bucketname, filename);
+  if (bucketname != '') {
+    await uploadFile(bucketname, filename);
+  }
 
   console.log(message)
   res.status(200).send(message);
