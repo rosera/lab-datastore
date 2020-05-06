@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@google-cloud/functions-framework": "^1.5.1",
+    "express": "^4.17.1",
     "pug": "^2.0.4"
   }
 }

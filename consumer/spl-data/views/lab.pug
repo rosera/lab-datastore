@@ -47,16 +47,121 @@ html
           border-collapse: collapse;
        }
 
+       .main-content H1,H2 {
+         font-family: roboto;
+         color: #aaaaaa;
+       }
+ 
+       .main-content H3 {
+         font-family: roboto;
+         color: #aaaaaa;
+         margin-left: 16px;
+         border-bottom: 1px solid #aaaaaa;
+       }
+
+       .main-content a {
+         text-decoration: none;
+         font-family: roboto;
+         color: #aaaaaa;
+         border-bottom: 1px solid #aaaaaa;
+       }
+     
+       .main-content P {
+         text-decoration: none;
+         font-family: roboto;
+         color: #aaaaaa;
+         margin-left: 16px;
+       }
+
+       .architecture H1, H2 {
+         font-family: roboto;
+         color: #aaaaaa;
+       }
+ 
+       .architecture H3 {
+         font-family: roboto;
+         color: #aaaaaa;
+         margin-left: 16px;
+         border-bottom: 1px solid #aaaaaa;
+       }
+
+       .architecture P {
+         font-size: 16px;
+         font-family: roboto;
+         color: #aaaaaa;
+         margin-left: 16px;
+       }
+
+       .architecture img {
+         margin-left: 16px;
+       }
+
+       .resource H1,H2 {
+         font-family: roboto;
+         color: #aaaaaa;
+       }
+ 
+       .resource H3 {
+         font-family: roboto;
+         color: #aaaaaa;
+         margin-left: 16px;
+         border-bottom: 1px solid #aaaaaa;
+       }
+
+       .resource table {
+         font-family: roboto;
+         font-size: 12px;
+         border-collapse;
+         border: 0;
+         width: 90%;
+         margin-left: 16px;
+         margin-right:16px;
+       }
+
+       .resource th {
+         border: 1px solid #dddddd;
+         background-color: #729ab7;
+         color: white;
+         text-align: left;
+         font-size: 16px;
+         padding:8px;
+       }
+       
+       .resource td {
+         font-family: roboto;
+         font-size: 16px;
+         color: #aaaaaa;
+         border: 1px solid #ffffff;
+       }
+     
+       .resource P {
+         font-size: 16px;
+         font-family: roboto;
+         color: #aaaaaa;
+         margin-left: 16px;
+       }
   body
-    div.header
-      H1 SPL Example
-      H3 Lab Details
-    div.card
-      h1 Lab ID - #{name}
+    div.main-content
+      H1 Self Paced Labs
+    
+    div.main-content
+      a(href="/") Home
+      H3 Lab Info
+      P Lab ID - #{name}
+      P "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+    div.architecture        
+      H3 Architecture
+      P "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+
+      img(src='/public/images/test.png' alt="architecture")
+
+    div.resource
+      H3 Resource Signature
       div.release
-        h3 Compute Resource(s):
-        P Name: #{lab.instanceName}
-        table(style="width:100%")
+        P 
+          Name: #{lab.instanceName}
+        table
           tr
             th Type
             th Zone
@@ -64,12 +169,14 @@ html
             th Disk Type
             th Image
           tr
-            td #{lab.machineType} <br>
-            td #{lab.zone} <br>
-            td #{lab.diskGb} GB<br>
-            td #{lab.diskType} <br>
-            td #{lab.sourceImg} <br>
+            td #{lab.machineType} 
+            td #{lab.zone} 
+            td #{lab.diskGb} GB
+            td #{lab.diskType} 
+            td #{lab.sourceImg} 
 
-      div.description
-        h3 Last Run: #{lab.startTime} 
+        P Last Run: #{lab.startTime} 
+      div.billing
+        H3 Billing Estimate
         P Calculate price Lab: (Resource * Lab Time)
+        P Is this high/medium/low for the resource type

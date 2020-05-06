@@ -1,18 +1,82 @@
+
 html
   head
+   style.
+     .body {
+       color: #333333;
+       font-family: roboto;
+       max-width: 650px;
+       margin: 0 auto;
+       padding: 0 16px;
+     }
+     .header {
+       margin-top: 16px;
+       margin-bottom: 48px;
+     }
+     .h1 {
+       font-size: 64px;
+       margin-bottom: 16px;
+     }
+     .footer {
+       color: #888888;
+       border-top: 1px solid #eeeeee; 
+     }
+     .main-content a {
+       color: 333333;
+       font-family: ariel;
+       margin-right: 16px;
+       margin-left: 16px;
+     }    
+     .main-content h3 {
+       color: 333333;
+       font-family: ariel;
+       margin-bottom: 16px;
+     }
+     .main-content table {
+       font-family: roboto;
+       font-size: 12px;
+       border-collapse: collapse;
+       border: 0;
+       width: 50%
+     }
+     .main-content th {
+       border: 1px solid #dddddd;
+       background-color: #729ab7;
+       color: white;
+       text-align: left;
+       font-size: 16px;
+       padding: 8px;
+     }
+     .main-content td {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+     }
+     .main-content tr:nth-child(even) {
+       background-color: #f2f2f2;
+     }
+     .main-content tr:hover {
+        background-color: #ddd;
+     }
+     .line-break {
+       border-top: 1px solid #eeeeee;
+     }
+     
     title Template - This is a statically generated report
   body
-    header
+    div.header
       p 
-        h1 Self Paced Labs
-    section
-    table(style='width:50%', border='1')
-      tr
-        th ID
-        th Name
-
-      each lab in labs
+        h1 SPL - Statically Generated Report
+    div.main-content
+      table
         tr
-          td 
-            a(href="/?lab=" + lab.id) #{lab.id} 
-          td #{lab.name}
+          th ID
+          th Title
+          th Architecture
+
+        each lab in labs
+          tr
+            td #{lab.id} 
+            td #{lab.name}
+            td 
+              a(href="/?lab=" + lab.id) Documentation 
